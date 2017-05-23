@@ -1,0 +1,6 @@
+*
+.vscode
+
+!webget.py
+!run.ps1
+!.gitignore

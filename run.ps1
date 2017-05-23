@@ -1,0 +1,7 @@
+& "python .\webget.py http://www.rfc-base.org/txt/rfc-768.txt"
+& "python .\webget.py ftp://ftp.uq.edu.au/welcome.msg"
+& "python .\webget.py ftp://ftp.marine.csiro.au/pub/spencer_gulf/met/README"
+& "python .\webget.py ftp://ftp.uq.edu.au/welcome.txt"
+& "python .\webget.py ftp://ftp.uq.edu.au/toplevel/welcome.msg"
+& "python .\webget.py ftp://ftp.itee.uq.edu.au/welcome.msg"
+& "python .\webget.py ftps://ftp.uq.edu.au/welcome.msg"
