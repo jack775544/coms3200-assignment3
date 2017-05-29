@@ -55,7 +55,10 @@ def downloadFtp(url):
             return
     try:
         # Download and save the file
-        ftp.retrbinary(f'RETR {filename}', open(filename, 'wb').write)
+        def save(byte_str):
+            with open(filename, 'wb') as f:
+                f.write(byte_str)
+        ftp.retrbinary(f'RETR {filename}', save)
     except:
         # Error if the file is not there
         print("The file could not be found on the FTP server")
